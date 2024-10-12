@@ -2,7 +2,7 @@ package day02;
 
 import java.util.Scanner;
 
-public class C01_ternary {
+public class C02_ternary {
     public static void main(String[] args) {
             /*
 Kullanıcıdan bir harf girmesini isteyiniz. Girilen harf sesli

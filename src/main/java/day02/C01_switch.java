@@ -2,7 +2,7 @@ package day02;
 
 import java.util.Scanner;
 
-public class Co1_switch {
+public class C01_switch {
     public static void main(String[] args) {
         //Toplama, Çıkarma, Çarpma, Bölme , kalan Hesaplama ve us alma
         // 2 sayi işlem yapan basit bir Hesap Makinesi oluşturun:
