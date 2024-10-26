@@ -34,6 +34,36 @@ public class C03InterviewQuestion {
             sum+=num;
         }
         System.out.println("toplam : "+sum);
+
+
+        //En kucuk ve En buyk Terimi Bul
+        //1.YOL
+        Integer minTerm = fibbonacciList.get(0);
+        Integer maxTerm = fibbonacciList.get(0);
+
+        for (int i = 0; i < count; i++) {
+            if (fibbonacciList.get(i) < minTerm){
+                minTerm = fibbonacciList.get(i);
+            }
+            if(fibbonacciList.get(i) > maxTerm){
+                maxTerm = fibbonacciList.get(i);
+            }
+        }
+
+        //2.YOL
+        int minTerm2 = fibbonacciList.get(0);
+        int maxTerm2 = fibbonacciList.get(0);
+        for (int w : fibbonacciList) {
+            if (w > maxTerm2){
+                maxTerm2 = w;
+            }
+            if (minTerm2 > w){
+                minTerm2 = w;
+            }
+        }
+        System.out.println("minTerm2 = " + minTerm2);
+        System.out.println("maxTerm2 = " + maxTerm2);
+
     }
 }
 
